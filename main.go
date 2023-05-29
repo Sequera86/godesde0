@@ -30,7 +30,7 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}
 
-	numero, cadena := ejercicios.Devuelve2valores("87")
+	numero, cadena := ejercicios.Devuelve2valores("500")
 	fmt.Println(numero, cadena)
 
 }
