@@ -1,10 +1,9 @@
 package main
 
 import (
-	/*"github.com/Sequera86/godesde0/ejercicios"
-	"github.com/Sequera86/godesde0/variables"
-	*/
-	"github.com/Sequera86/godesde0/teclado"
+	"github.com/Sequera86/godesde0/ejercicios"
+	//"github.com/Sequera86/godesde0/variables"
+	//"github.com/Sequera86/godesde0/teclado"
 )
 
 func main() {
@@ -32,5 +31,6 @@ func main() {
 	numero, cadena := ejercicios.Devuelve2valores("500")
 	fmt.Println(numero, cadena)
 	*/
-	teclado.IngresosNumeros()
+	//teclado.IngresosNumeros()
+	ejercicios.Multipilicacion()
 }
