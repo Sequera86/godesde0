@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/Sequera86/godesde0/ejercicios"
+	//"fmt"
+	//"github.com/Sequera86/godesde0/ejercicios"
+	"github.com/Sequera86/godesde0/files"
 	//"github.com/Sequera86/godesde0/variables"
 	//"github.com/Sequera86/godesde0/teclado"
 )
@@ -32,5 +34,7 @@ func main() {
 	fmt.Println(numero, cadena)
 	*/
 	//teclado.IngresosNumeros()
-	ejercicios.Multipilicacion()
+	//fmt.Println(ejercicios.Multipilicacion())
+	//files.Sumatabla()
+	files.LeoArchivo2()
 }
