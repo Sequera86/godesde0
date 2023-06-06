@@ -6,7 +6,9 @@ import (
 	//"github.com/Sequera86/godesde0/files"
 	//"github.com/Sequera86/godesde0/variables"
 	//"github.com/Sequera86/godesde0/teclado"
-	"github.com/Sequera86/godesde0/funciones"
+	//"github.com/Sequera86/godesde0/funciones"
+	//"github.com/Sequera86/godesde0/arreglos_slices"
+	"github.com/Sequera86/godesde0/mapas"
 )
 
 func main() {
@@ -39,6 +41,10 @@ func main() {
 	//files.Sumatabla()
 	//files.LeoArchivo2()
 	//funciones.Calculos()
-	funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
