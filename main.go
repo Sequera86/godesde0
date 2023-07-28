@@ -8,7 +8,9 @@ import (
 	//"github.com/Sequera86/godesde0/teclado"
 	//"github.com/Sequera86/godesde0/funciones"
 	//"github.com/Sequera86/godesde0/arreglos_slices"
-	"github.com/Sequera86/godesde0/mapas"
+	//"github.com/Sequera86/godesde0/users"
+	e "github.com/Sequera86/godesde0/ejerinterfaces"
+	"github.com/Sequera86/godesde0/modelos"
 )
 
 func main() {
@@ -46,5 +48,11 @@ func main() {
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.MuestroSlice()
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	//users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
