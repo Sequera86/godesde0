@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Sequera86/godesde0/deferpanic"
+
 	//"fmt"
 	//"github.com/Sequera86/godesde0/ejercicios"
 	//"github.com/Sequera86/godesde0/files"
@@ -12,6 +12,10 @@ import (
 	//"github.com/Sequera86/godesde0/users"
 	//e "github.com/Sequera86/godesde0/ejerinterfaces"
 	//"github.com/Sequera86/godesde0/modelos"
+	//"github.com/Sequera86/godesde0/deferpanic"
+	"fmt"
+
+	"github.com/Sequera86/godesde0/gorutines"
 )
 
 func main() {
@@ -56,7 +60,13 @@ func main() {
 
 	Maria := new(modelos.Mujer)
 	e.HumanosRespirando(Maria)
-	*/
+
 	deferpanic.EjemploPanic()
+	*/
+	go gorutines.MiNombreLentooo("Antonio Sequera")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 
 }
