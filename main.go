@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/Sequera86/godesde0/deferpanic"
 	//"fmt"
 	//"github.com/Sequera86/godesde0/ejercicios"
 	//"github.com/Sequera86/godesde0/files"
@@ -9,8 +10,8 @@ import (
 	//"github.com/Sequera86/godesde0/funciones"
 	//"github.com/Sequera86/godesde0/arreglos_slices"
 	//"github.com/Sequera86/godesde0/users"
-	e "github.com/Sequera86/godesde0/ejerinterfaces"
-	"github.com/Sequera86/godesde0/modelos"
+	//e "github.com/Sequera86/godesde0/ejerinterfaces"
+	//"github.com/Sequera86/godesde0/modelos"
 )
 
 func main() {
@@ -37,7 +38,7 @@ func main() {
 
 	numero, cadena := ejercicios.Devuelve2valores("500")
 	fmt.Println(numero, cadena)
-	*/
+
 	//teclado.IngresosNumeros()
 	//fmt.Println(ejercicios.Multipilicacion())
 	//files.Sumatabla()
@@ -55,4 +56,7 @@ func main() {
 
 	Maria := new(modelos.Mujer)
 	e.HumanosRespirando(Maria)
+	*/
+	deferpanic.EjemploPanic()
+
 }
